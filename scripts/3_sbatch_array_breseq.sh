@@ -2,11 +2,11 @@
 #SBATCH --partition=short
 #SBATCH --job-name=breseq_array
 #SBATCH --time=04:00:00
-#SBATCH --array=1-11%12
+#SBATCH --array=1-6%7
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=100G
-#SBATCH --output=/work/geisingerlab/Mark/breseq/2024-05-21_breseq/logs/%x_%A_%a.out
-#SBATCH --error=/work/geisingerlab/Mark/breseq/2024-05-21_breseq/logs/%x_%A_%a.err
+#SBATCH --output=/work/geisingerlab/Mark/breseq/2024-09-03_breseq_d-rpoE_msa55/logs/%x_%A_%a.out
+#SBATCH --error=/work/geisingerlab/Mark/breseq/2024-09-03_breseq_d-rpoE_msa55/logs/%x_%A_%a.err
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=soo.m@northeastern.edu
 
